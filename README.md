@@ -2,6 +2,8 @@
 
 ```
 export AppName=
+export PROPERTY_ID=
+export SECRET_KEY=
 ```
 
 ```bash
@@ -9,8 +11,8 @@ heroku buildpacks:add https://heroku-buildpacks.templarbit.com/templarbit-agent-
 ```
 
 ```bash
-heroku config:set TB_PROPERTY_ID=xxx -a $AppName
-heroku config:set TB_SECRET_KEY=xxx  -a $AppName
+heroku config:set TB_PROPERTY_ID=$PROPERTY_ID -a $AppName
+heroku config:set TB_SECRET_KEY=$SECRET_KEY -a $AppName
 ```
 
 ```bash
