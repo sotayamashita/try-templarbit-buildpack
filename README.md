@@ -18,3 +18,8 @@ heroku config:set TB_SECRET_KEY=$SECRET_KEY -a $AppName
 ```bash
 echo "web: templarbit bundle exec rails server" > Procfile
 ```
+
+Quick references:
+
+- [How to install Templarbit on Heroku on YouTube](https://youtu.be/nzdWHkNCq6g)
+- [How to configure Templarbit on Heroku](https://docs.templarbit.com/docs/heroku) 
